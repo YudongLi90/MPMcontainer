@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  mpm-container:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: yli90:mpm-container
+    container_name: mpm-container
+    restart: always
+    volumes:
+      - "./tutorials:/workspace/tutorials"
+      - "./mpm:/workspace/mpm"

@@ -1,0 +1,6 @@
+[submodule "mpm"]
+	path = mpm
+	url = https://github.com/cb-geo/mpm.git
+[submodule "tutorials"]
+	path = tutorials
+	url = https://github.com/cb-geo/mpm-benchmarks.git

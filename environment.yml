@@ -1,0 +1,17 @@
+name: mpm-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - h5py
+  - cython
+  - scipy
+  - matplotlib
+  - pandas
+  - pytables
+  - pip
+  - IPython[all]
+  - pip:
+    - pycbg
